@@ -35,7 +35,7 @@ export class Header extends React.Component<Props, State> {
   render() {
     // tslint:disable no-console
     console.log('rendering header');
-    // return statement as a template literal
+    // return is in parens because it is a multi-line return
     // className because we're inside a literal and can't class with class above
     // anything inside the curly braces is a javascript expression and evaluated. here we're using them to control the input value and assign the functions we created above to the input events
     return (
